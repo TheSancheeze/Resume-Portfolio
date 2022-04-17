@@ -2,7 +2,6 @@ import React from 'react'
 import './education.css'
 import CSUN1 from '../../assets/CSUN1.png'
 import CSUN2 from '../../assets/CSUN2.png'
-import CSUN3 from '../../assets/CSUN3.png'
 import {FaSchool} from 'react-icons/fa'
 import {MdMenuBook} from 'react-icons/md'
 import {BsFillPatchCheckFill} from 'react-icons/bs'
@@ -83,7 +82,6 @@ const Education = () => {
         <div className="education__picture">
           <div className="education__pics">
             <img src={CSUN1} alt="CSUN1 Photo" />
-            {/* <img src={CSUN3} alt="CSUN2 Photo" /> */}
             <img src={CSUN2} alt="CSUN3 Photo" />
           </div>
         </div>
