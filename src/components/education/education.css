@@ -1,0 +1,113 @@
+.education__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.education__cards {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 1.5rem;
+}
+
+.education__degree {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.education__degree:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education__coursework {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.education__coursework:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.education__degree > h4 {
+    color: var(--color-light);
+}
+
+.education__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.education__details-icon {
+    color: var(--color-primary);
+}
+
+.education__coursework-details > div h4{
+    color: var(--color-light);
+}
+
+.education__picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        65deg,
+        transparent,
+        #433232,
+        transparent
+    );
+    display: grid;
+    place-items: center;
+    margin-top: 9rem;
+}
+
+.education__pics {
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: rotate(5deg);
+    transition: var(--transition);
+}
+
+.education__pics:hover {
+    transform: rotate(0deg);
+}
+
+/************ MEDIA QUERIES (MEDIUM DEVICES) ****************/
+@media screen and (max-width: 1024px) {
+    .education__container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .education__picture {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+ }
+ 
+ /************ MEDIA QUERIES (SMALL DEVICES) ****************/
+ @media screen and (max-width: 600px) {
+    .education__picture {
+        width: 65;
+        margin: 0 auto 3rem;
+        margin-top: 2rem;
+    }
+ }
