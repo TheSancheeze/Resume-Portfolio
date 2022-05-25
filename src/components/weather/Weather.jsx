@@ -42,7 +42,7 @@ const Weather = () => {
 
   const submitCity = () => {
     if(city === null || city === ''){return}
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=${WEATHERAPI_API_KEY}&q=${city}&days=1&aqi=no&alerts=no`
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${WEATHERAPI_API_KEY}&q=${city}&days=1&aqi=no&alerts=no`
     fetch(url)
       .then(res => {
         if (res.ok) {return res.json()}
