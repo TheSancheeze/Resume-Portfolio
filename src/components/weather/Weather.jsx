@@ -14,7 +14,7 @@ const Weather = () => {
   const WEATHERAPI_API_KEY = '273ede59ddfc4407bad51910221605'
   
   React.useEffect(() => {
-    fetch(`http://api.weatherapi.com/v1/forecast.json?key=${WEATHERAPI_API_KEY}&q=${city}&days=1&aqi=no&alerts=no`)
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=${WEATHERAPI_API_KEY}&q=${city}&days=1&aqi=no&alerts=no`)
       .then(res => res.json())
       .then(data => setWeather(data))
   // eslint-disable-next-line react-hooks/exhaustive-deps
