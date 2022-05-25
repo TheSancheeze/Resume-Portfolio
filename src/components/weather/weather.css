@@ -1,0 +1,89 @@
+.weather__container {
+    background: rgba(0, 0, 0, 0.2);
+    width: max-content;
+    /* width: 100%; */
+    display: block;
+    padding: 0rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    /* display: flex; */
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.weather__container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.weather__container > .link__back {
+    justify-content: right;
+    font-size: 0.5rem;
+}
+
+.weather__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon > img {
+    width: 4rem;
+}
+
+.location, 
+.temperature {
+    padding-top: 1.5rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
+}
+
+.detail__section {
+    display: flex;
+    gap: 1rem;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-top: 0.25rem;
+}
+
+.title {
+    color: var(--color-primary);
+}
+
+.city-search {
+    height: 1rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    border-width: 0.05rem;
+}
+
+/************ MEDIA QUERIES (MEDIUM DEVICES) ****************/
+@media screen and (max-width: 1024px) {
+    /* .weather__container {
+        width: 100%;
+        border-radius: 0rem;
+        padding: 0rem;
+    } */
+}
+
+/************ MEDIA QUERIES (SMALL DEVICES) ****************/
+@media screen and (max-width: 600px) {
+    .weather__container {
+        width: 100%;
+        border-radius: 0rem;
+        padding: 0rem;
+    }
+}

@@ -36,7 +36,7 @@ const About = () => {
             </article> */}
           </div>
           <p>
-          My name is Erick Sanchez, a soon-to-be graduate from California State University of Northridge (CSUN) with a 
+          My name is Erick Sanchez, a graduate from California State University of Northridge (CSUN) with a 
           BS in Computer Science and Minor in Mathematics. I am eager to enter the tech industry and apply my knowledge, 
           as well as expand my proficiency in writing code. I am open to working remotely, on-site, and would even consider 
           relocating for the right position.
