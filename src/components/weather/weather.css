@@ -82,6 +82,10 @@
     border-width: 0.05rem;
 }
 
+.city-search::placeholder {
+    color: white;
+}
+
 /************ MEDIA QUERIES (MEDIUM DEVICES) ****************/
 @media screen and (max-width: 1024px) {
     /* .weather__container {
