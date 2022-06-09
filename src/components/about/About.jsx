@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me2.jpeg'
+import ME from '../../assets/me2.jpg'
 import {ImLab} from 'react-icons/im'
 import {FaSchool} from 'react-icons/fa'
 

@@ -30,6 +30,13 @@
     row-gap: 2rem;
 }
 
+.work__content {
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 2rem;
+    padding-left: 2rem;
+}
+
 .experience__details {
     display: flex;
     gap: 0.75rem;

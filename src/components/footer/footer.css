@@ -1,5 +1,6 @@
 footer {
-    background: #6699cc;
+    /* background: #6699cc; */
+    background: var(--color-primary-variant);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;

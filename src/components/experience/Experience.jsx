@@ -10,7 +10,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Languages & Technical Tools</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
@@ -43,16 +43,11 @@ const Experience = () => {
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>React</h4>
+                <h4>ReactJS</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
-          </div>
-        </div>
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-          <article className='experience__details'>
+            <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Java</h4>
@@ -76,8 +71,63 @@ const Experience = () => {
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Prolog</h4>
-                <small className='text-light'>Basic</small>
+                <h4>Git</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Matplotlib</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Plotly</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Jupyter Notebook</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+        <div className="experience__backend">
+          <h3>Work Experience</h3>
+          <div className="work__content">
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Desktop Support Analyst</h4>
+                <small className='text-light'>Robert Half Inc | May 2022 - June 2022</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Senior Specimen Processor</h4>
+                <small className='text-light'>PerkinElmer | Oct 2020 - May 2022</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Specimen Technician II</h4>
+                <small className='text-light'>Quest Diagnostics | Feb 2019 - Oct 2020</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Product Quality</h4>
+                <small className='text-light'>IKEA | May 2016 - Feb 2019</small>
               </div>
             </article>
           </div>

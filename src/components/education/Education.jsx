@@ -20,7 +20,7 @@ const Education = () => {
               <FaSchool className='education__icon' />
               <h3>Bachelor's Degree</h3>
               <h4>BS in Computer Science with a Minor in Mathematics.</h4>
-              <h4>Graduating May 2022</h4>
+              <h4>May 2022</h4>
             </div>
             <div className='education__coursework'>
               <MdMenuBook className='education__icon' />
